@@ -4,10 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUWEE_ZEST", "NUWEE_ZEST\NUWEE_ZEST.csproj", "{D5664B1B-0DB0-4DAB-87FA-9E721B932E7E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{63428F47-2AE7-49A3-9C60-2B33B1CD67AB} = {63428F47-2AE7-49A3-9C60-2B33B1CD67AB}
+		{B69D5EB0-5C9E-49C7-BF7C-16FC43719797} = {B69D5EB0-5C9E-49C7-BF7C-16FC43719797}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B69D5EB0-5C9E-49C7-BF7C-16FC43719797}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{B69D5EB0-5C9E-49C7-BF7C-16FC43719797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastucture", "Infrastucture\Infrastucture.csproj", "{63428F47-2AE7-49A3-9C60-2B33B1CD67AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastucture", "Infrastucture\Infrastucture.csproj", "{63428F47-2AE7-49A3-9C60-2B33B1CD67AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
