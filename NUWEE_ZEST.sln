@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUWEE_ZEST", "NUWEE_ZEST\NUWEE_ZEST.csproj", "{D5664B1B-0DB0-4DAB-87FA-9E721B932E7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUWEE_ZEST", "NUWEE_ZEST\NUWEE_ZEST.csproj", "{D5664B1B-0DB0-4DAB-87FA-9E721B932E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B69D5EB0-5C9E-49C7-BF7C-16FC43719797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastucture", "Infrastucture\Infrastucture.csproj", "{63428F47-2AE7-49A3-9C60-2B33B1CD67AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D5664B1B-0DB0-4DAB-87FA-9E721B932E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5664B1B-0DB0-4DAB-87FA-9E721B932E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5664B1B-0DB0-4DAB-87FA-9E721B932E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69D5EB0-5C9E-49C7-BF7C-16FC43719797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69D5EB0-5C9E-49C7-BF7C-16FC43719797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69D5EB0-5C9E-49C7-BF7C-16FC43719797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69D5EB0-5C9E-49C7-BF7C-16FC43719797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63428F47-2AE7-49A3-9C60-2B33B1CD67AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63428F47-2AE7-49A3-9C60-2B33B1CD67AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63428F47-2AE7-49A3-9C60-2B33B1CD67AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63428F47-2AE7-49A3-9C60-2B33B1CD67AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
