@@ -16,6 +16,7 @@ namespace Infrastucture.Configurations
             builder.HasKey(pb => pb.Id);
 
             builder.HasOne(pb => pb.Product).WithMany(p => p.ProductBaskets).HasForeignKey(pb => pb.ProductId);
+            builder.HasOne(pb => pb.Basket).WithMany(b => b.ProductBaskets).HasForeignKey(pb => pb.BasketId);
         }
     }
 }
