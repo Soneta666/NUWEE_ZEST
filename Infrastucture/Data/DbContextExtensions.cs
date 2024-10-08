@@ -78,7 +78,7 @@ namespace Infrastructure.Data
                 new Category()
                 {
                     Id = 2,
-                    Name = "Гаряча їжа",
+                    Name = "Випічка",
                 },
             });
         }
